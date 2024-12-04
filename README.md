@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- I am currently enrolled in the Artificial Intelligence and Data Analytics orientation of the Computer Engineering Master Degree at Politecnico di Torino.
+- I'm Silvia and I am currently enrolled in the Artificial Intelligence and Data Analytics orientation of the Computer Engineering Master Degree at Politecnico di Torino.
 
 
 <!-- <p align="center">
