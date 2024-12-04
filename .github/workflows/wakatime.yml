@@ -1,16 +1,18 @@
 name: Update WakaTime Stats
 
 on:
+  # for manual workflow trigger
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Aggiorna ogni giorno a mezzanotte UTC
-  workflow_dispatch:      # Permette di avviare manualmente l'azione
+    # runs at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true  # Mostra il titolo "📊 This Week I Spent My Time On"
