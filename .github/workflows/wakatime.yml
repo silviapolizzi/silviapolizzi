@@ -13,3 +13,13 @@ jobs:
       - uses: athul/waka-readme@v3.0.1
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true  # Mostra il titolo "📊 This Week I Spent My Time On"
+          TIMEZONE: Europe/Rome  # Imposta il fuso orario
+          SHOW_LANGUAGE: true  # Mostra le statistiche per linguaggi
+          SHOW_EDITORS: false  # Nasconde gli editor utilizzati
+          SHOW_OS: false  # Nasconde i sistemi operativi utilizzati
+          SHOW_PROJECTS: true  # Mostra i progetti su cui hai lavorato
+          SHOW_DAYS: true  # Mostra l'attività suddivisa per giorni
+          SHOW_TIME: true  # Mostra il tempo totale
+          COMMIT_MESSAGE: "Aggiornate statistiche WakaTime"  # Messaggio del commit automatico
+
