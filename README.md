@@ -7,3 +7,9 @@
    <img style="height:170px;display:inline-block"  src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=silviapolizzi&theme=github_dark" />
    <img style="height:170px;display:inline-block"  src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=silviapolizzi&theme=github_dark&exclude=" /> 
 </p>
+
+
+## :clock3: My Coding Time 
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
