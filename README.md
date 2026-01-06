@@ -12,7 +12,7 @@
 ## :clock3: My Coding Time 
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-285.31%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-285.31%20thousand%20lines%20of%20code-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -48,5 +48,5 @@ C                        1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 05/01/2026 01:52:26 UTC
+ Last Updated on 06/01/2026 01:44:06 UTC
 <!--END_SECTION:waka-->
